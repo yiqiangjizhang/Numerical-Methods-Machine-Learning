@@ -76,8 +76,7 @@ num: diagnosis of heart disease (angiographic disease status)
 %}
 diagnosis  = processedcleveland(:,14);
 
-
-heart_disease_table = table(chest_pain,resting_blood_pressure,cholesterol, ...
+heart_disease_table = table(age,sex,chest_pain,resting_blood_pressure,cholesterol, ...
     blood_sugar, resting_electrocardiographic_result, max_heart_rate_achieved, ...
     exercise_indulced_angina, ST_depression, ST_slope, num_vessels, duration_exercise);
 
