@@ -1,8 +1,9 @@
-function [accuracy] = getAccuracy(predictions,Y)
-%{
-Get the accuracy
-%}
+function [accuracy] = getAccuracy(x_index, Ytrain)
+    %{
+    Get the accuracy
+    %}
 
-accuracy = sum(predictions == Y) / length(Y);
+    % Loop through all the indices and if the index
+    accuracy = sum((x_index - 1) == Ytrain) / length(Ytrain);
 
 end

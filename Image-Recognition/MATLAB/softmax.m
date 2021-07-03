@@ -1,8 +1,8 @@
 function [Z] = softmax(Z)
-%{
-Softmax activation function
-%}
+    %{
+    Softmax activation function
+    %}
 
-Z = exp(Z)/sum(exp(Z));
+    Z = exp(Z) ./ sum(exp(Z));
 
 end
