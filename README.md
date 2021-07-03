@@ -11,8 +11,10 @@ MSE as a function of folds using k-fold algorithm.
 <img src="Exercises/Linear-Regression-Algorithm/MSE_afi_kfold_error.png" width="750">
 
 
-## One vs All 
+## One vs All
+
 Iris data set
+
 <img src="Exercises/Linear-Regression-Classification-1vsAll/iris_set_plot.png" width="750">
 
 ## Neural Networks
