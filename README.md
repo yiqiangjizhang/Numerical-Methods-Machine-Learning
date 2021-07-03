@@ -24,7 +24,7 @@ Iris data set
 <img src="Exercises/Neural-Networks/images/MSE_layers.png" width="750">
 <img src="Exercises/Neural-Networks/images/plot_2_3.png" width="750">
 
-## Image Recognition 
+## Image Recognition of MNIST dataset
 
 <img src="Image-Recognition/images/prediction_0.png" width="250">
 <img src="Image-Recognition/images/prediction_4_label_9.png" width="250">
